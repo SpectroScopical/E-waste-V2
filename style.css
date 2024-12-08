@@ -112,10 +112,14 @@ display: flex;
 }
 
 .menu {
+width: 35%;
+}
+
+.menubox {
 border: 5px solid #153d00;
 border-radius: 15px;
 margin: 25px;
-width: 180px;
+width: 300px;
 text-align: center;
 }
 
@@ -126,6 +130,7 @@ background-color: #153d00;
 
 a {
 text-decoration: none;
+color: white;
 }
 
 .menuitem {
@@ -138,4 +143,98 @@ transition: 0.3s all;
 .menuitem:hover {
 background-color: white;
 color: black;
+}
+
+.menuvidbox {
+margin: 20px;
+border: 5px solid #153d00;
+border-radius: 15px;
+width: 320px;
+height: 180px;
+}
+
+.menuvid {
+width: 320px;
+height: 180px;
+}
+
+.infobox {
+width: 65%;
+align-items: center;
+}
+
+.infotitle {
+font-size: 40px;
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.infoimg {
+width: 580px;
+height: 360px;
+overflow: hidden;
+border: 5px solid #153d00;
+border-radius: 15px;
+margin-left: 78px;
+}
+
+.infopara {
+font-size: 17px;
+margin: 20px;
+}
+
+.parastart {
+font-size: 23px;
+}
+
+.buttonhandle {
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.button {
+display: flex;
+margin: 10px;
+}
+
+.buttontext {
+border: 5px solid #153d00;
+border-radius: 15px;
+padding: 10px;
+transition: 0.3s all;
+}
+
+.buttontext:hover {
+background-color: white;
+color: black;
+}
+
+footer {
+background-color: #03ad00;
+padding: 20px;
+text-align: center;
+box-shadow: 0 0 50px 10px green;
+margin-top: 30px;
+}
+
+.Copyright {
+font-size: 35px;
+}
+
+.infolist {
+margin-left: 120px;
+font-size: 17px;
+color: white;
+}
+
+.infolisttitle {
+font-size: 24px;
+}
+
+.infolisthandle {
+display: block;
+margin-bottom: 40px;
 }
