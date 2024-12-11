@@ -31,7 +31,7 @@ box-shadow: 0 0 10px 5px green;
 }
 
 body {
-background-color: #cdcdcd;
+background-color: #79b975;
 align-items: center;
 }
 
@@ -58,6 +58,7 @@ width: 100%;
 width: 100%;
 font-size: 70px;
 position: absolute;
+text-shadow: 3px 3px black;
 top: 45%;
 left: 32%;
 animation: bannertext 1s infinite;
@@ -70,7 +71,7 @@ width: 200px;
 top: 39%;
 left: 10%;
 animation: bannericon 1s infinite;
-box-shadow: 0 0 50px 10px #fffb75;
+box-shadow: 0 0 50px 10px #87ff80;
 }
 
 @keyframes bannertext {
@@ -105,6 +106,7 @@ marquee {
 background-color: #03ad00;
 border-bottom: 5px solid #153d00;
 margin: 0;
+color: white;
 }
 
 .box {
@@ -136,13 +138,12 @@ color: white;
 .menuitem {
 padding: 10px;
 border-bottom: 5px solid #153d00;
-background-color: #03ad00;
+background-color: #028700;
 transition: 0.3s all;
 }
 
 .menuitem:hover {
-background-color: white;
-color: black;
+background-color: #47a746;
 }
 
 .menuvidbox {
@@ -156,11 +157,11 @@ height: 180px;
 .menuvid {
 width: 320px;
 height: 180px;
+border-radius: 10px;
 }
 
 .infobox {
 width: 65%;
-display: grid;
 align-items: center;
 
 }
@@ -210,11 +211,11 @@ border: 5px solid #153d00;
 border-radius: 15px;
 padding: 10px;
 transition: 0.3s all;
+background-color: #028700;
 }
 
 .buttontext:hover {
-background-color: white;
-color: black;
+background-color: #47a746;
 }
 
 footer {
@@ -251,4 +252,22 @@ border-radius: 15px;
 width: 520px;
 height: 360px;
 margin-left: 75px;
+}
+
+.infotitle-c {
+font-size: 40px;
+margin-top: 20px;
+}
+
+.headerL {
+display: flex;
+align-items: center;
+}
+
+.menuitem-b {
+padding: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: #028700;
+transition: 0.3s all;
 }
