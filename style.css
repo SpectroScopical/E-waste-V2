@@ -31,7 +31,7 @@ box-shadow: 0 0 10px 5px green;
 }
 
 body {
-background-color: #153d00;
+background-color: #cdcdcd;
 align-items: center;
 }
 
@@ -70,7 +70,7 @@ width: 200px;
 top: 39%;
 left: 10%;
 animation: bannericon 1s infinite;
-box-shadow: 0 0 50px 10px black;
+box-shadow: 0 0 50px 10px #fffb75;
 }
 
 @keyframes bannertext {
@@ -160,7 +160,9 @@ height: 180px;
 
 .infobox {
 width: 65%;
+display: grid;
 align-items: center;
+
 }
 
 .infotitle {
@@ -171,13 +173,16 @@ text-align: center;
 }
 
 .infoimg {
-width: 580px;
+width: 520px;
 height: 360px;
 overflow: hidden;
-border: 5px solid #153d00;
-border-radius: 15px;
-margin-left: 78px;
+align-self: center;
+transition: 0.3s all;
 }
+
+.infoimg:hover {
+transform: scale(1.1);
+} 
 
 .infopara {
 font-size: 17px;
@@ -237,4 +242,13 @@ font-size: 24px;
 .infolisthandle {
 display: block;
 margin-bottom: 40px;
+}
+
+.infoimghandle {
+overflow: hidden;
+border: 5px solid #153d00;
+border-radius: 15px;
+width: 520px;
+height: 360px;
+margin-left: 75px;
 }
