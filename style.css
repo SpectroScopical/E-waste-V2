@@ -271,3 +271,11 @@ border-bottom-right-radius: 10px;
 background-color: #028700;
 transition: 0.3s all;
 }
+
+.menuitem-b:hover {
+background-color: #47a746;
+}
+
+.gototop {
+float: right;
+} 
